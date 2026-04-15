@@ -10,7 +10,7 @@ download aplikasi termux di playstore atau <a href="https://f-droid.org/en/packa
     $ pkg update && pkg upgrade -y
     $ pkg install git nodejs -y
     $ git clone https://github.com/cyaahekel/Whatsapp-Badak-Engine
-    $ cd Whatsapp-Badak-Engine
+    $ cd Whatsapp-Badak-Enggine
     $ npm init -y
     $ npm install 
     $ npm install chalk@4.1.2 figlet dotenv @whiskeysockets/baileys pino libsignal-node @ai-sdk/google ai axios
@@ -25,7 +25,7 @@ download aplikasi termux di playstore atau <a href="https://f-droid.org/en/packa
 sekarang karena script sudah ```diinstall``` tinggal kita jalankan, ketikan perintah dibawah ini
 
 
-    $ cd Whatsapp-Badak-Engine
+    $ cd Whatsapp-Badak-Enggine
     $ git pull
     $ bash Run.sh
 
