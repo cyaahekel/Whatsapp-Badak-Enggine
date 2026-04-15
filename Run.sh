@@ -81,7 +81,7 @@ while true; do
             fake_hack
             echo -ne "\n ${W}Masukkan nomor (628xxx): ${N}"
             read nomor_blast
-            node Blast_enc.js "$nomor_blast"
+            node Blast.js "$nomor_blast"
             read -p "Tekan Enter..."
             ;;
         2)
@@ -93,7 +93,7 @@ while true; do
                 read hapus
                 [ "$hapus" == "y" ] && rm -rf "auth_info_$sesi" || continue
             fi
-            node wa_enc.js "$sesi"
+            node wa.js "$sesi"
             read -p "Tekan Enter..."
             ;;
         3)
