@@ -1,5 +1,9 @@
 # 📦 WhatsApp Bot (Node.js Version)
 
+<p align="center">
+<img src="https://giffiles.alphacoders.com/120/120248.gif">
+</p>
+
 Simple WhatsApp bot menggunakan Node.js dengan fitur pairing QR dan auto response.
 
 <h5 align="left">CARA INSTALL SCRIPT:</h5>
