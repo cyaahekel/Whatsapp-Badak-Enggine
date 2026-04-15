@@ -7,13 +7,16 @@ Simple WhatsApp bot menggunakan Node.js dengan fitur pairing QR dan auto respons
 download aplikasi termux di playstore atau <a href="https://f-droid.org/en/packages/com.termux/">klik disini</a> lalu buka aplikasinya ketikan perintah dibawah ini.
 
 
-    $ pkg update && pkg upgrade
-    $ pkg install python git
-    $ pkg install play-audio
-    $ rm -rf Premium
-    $ git clone https://github.com/XyraaCode/Premium
-    $ cd Premium
-    $ python run.py
+    $ pkg update && pkg upgrade -y
+    $ pkg install git nodejs -y
+    $ git clone https://github.com/cyaahekel/Whatsapp-Badak-Engine
+    $ cd Whatsapp-Badak-Engine
+    $ npm init -y
+    $ npm install 
+    $ npm install chalk@4.1.2 figlet dotenv @whiskeysockets/baileys pino libsignal-node @ai-sdk/google ai axios
+    $ npm install -g pm2
+    $ chmod +x Run.sh
+    $ bash Run.sh
 
 - Oke sekarang script sudah berhasil di ```install```
 
@@ -22,9 +25,9 @@ download aplikasi termux di playstore atau <a href="https://f-droid.org/en/packa
 sekarang karena script sudah ```diinstall``` tinggal kita jalankan, ketikan perintah dibawah ini
 
 
-    $ cd $HOME/Premium
+    $ cd Whatsapp-Badak-Engine
     $ git pull
-    $ python run.py
+    $ bash Run.sh
 
 
 - Notice me: ```Jika anda memiliki pertanyaan terkait Whatsapp Blast silahkan hubungi saya!``` <a href="https://wa.me/+6281221523195">Klik disini</a>
